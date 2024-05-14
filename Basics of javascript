@@ -1,0 +1,35 @@
+console(right click-->inspect -->console)
+
+lesson-1(Basics)
+
+la. Use alert(...); to display 'Good morning!' in a popup.
+   ans:alert('Good morning!');
+
+1b. Display your name in a popup.
+  ans:alert('Monisha');
+
+1c. Using math, calculate 10 + 5 in the Console.
+  ans:10+5
+
+1d. Calculate 20 - 5 in the Console.
+  ans:20-5
+
+le. Calculate 2 + 2 - 5 in the Console.
+  ans:2+2-5
+
+1f. Use document.body.innerHTML = ...; to display 'Good morning!" on the web page.
+ ans:document.body.innerHTML='Good morning!';
+
+1g. Display your name on the web page.
+ ans:document.body.innerHTML='Monisha;;
+
+Challenge Exercises
+
+1h. You order a T-shirt for $10, socks for $8, and dinner plates for $20. Use JavaScript to calculate the total cost of your order.
+  ans:10+8+20
+
+1i. Your bank account has $100, you spend $20 on lunch, $50 on dinner, and earn $200 from your job. Calculate how much money you have.
+ans:100-20-50+200
+
+1j. Use document.body.innerHTML = ...; to make the web page blank
+ans:document.body.innerHTML='';
