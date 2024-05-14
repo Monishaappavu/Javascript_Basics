@@ -1,0 +1,74 @@
+lesson-2(NUMBERS AND MATH)
+
+In this lesson:
+
+1. Numbers and Math
+
+2. Order of Operations, and Brackets (...)
+
+3. Calculated the numbers in final project
+
+4. Calculations using floats can be inaccurate
+
+5. Math.round()
+
+6. How to search for code on our own
+
+
+Exercise:
+
+Note: do these exercises in the Console (right-click > Inspect > Console)
+
+2a. At a restaurant, you order 1 soup for $10, 3 burgers for $8 each, and 1 ice cream for $5. Use JavaScript to calculate the cost of the order. ans:10+3*8+5
+
+2b. You're at a restaurant with 2 friends (3 people in total) and make the same order as 2a, Calculate how much each person pays. ans:(10+3*8+5)/3
+
+2c. Calculate the total cost of a toaster ($18.50) and 2 shirts ($7.50 each).ans:18.5+2*7.5
+
+2d. Calculate a 10% tax for the total in exercise 2c. ans:10%=10/100 = 0.1 -->(18.5+2*7.5)*0.1
+
+2e. Calculate a 20% tax for the total in 2c (remember that 1% = 1/100, so 20% = 20/100 = 0.2) ans:(18.5+2*7.5) *0.2
+
+   ---X-----
+
+
+Setup: in the Amazon project, go to the home page and add a toaster ($18.99) to your cart so you have 1 basketball($20.95), 1 t-shirt(7.99), and 1 toaster(&18.99). Choose $4.99 shipping for the toaster.
+link for select item:(supersimple.dev/projects/amazon)
+
+Order Summary
+
+Items (3)             $47.93
+Shipping & handling   $4.99
+Total before tax      $52. 92
+Estimated tax (10%)   $5.29
+Order total:          $58.21
+
+
+2f. Calculate the cost of the products (before shipping and taxes). Hint: calculate in cents to avoid inaccuracies.   ans:(2095 + 799 + 1899) / 100= $47.93
+2g. Calculate the Total before tax.  ans:items+shipping=(2095 + 799 + 1899+499) / 100= $52.92
+2h. Calculate the 10% tax exactly. Hint: use Math.round()   ans:Math.round((2095 + 799 + 1899 + 499) * 0.1) / 100 =$5.29
+2i. Calculate Order total at the bottom. ans:total before tax+estimated tax(10%)=order total  (2095 + 799 + 1899 + 499) / 100 + Math.round((2095 + 799 + 1899 + 499) * 0.1) / 100 =$58.21
+
+----X-----
+to search the math functions:
+2j. Let's say we want to always round a number down (2.8 => 2) Using Google or an A.l. tool, search for the code to do this.  ans:Math.floor(2.8)
+
+2k. Let's always round a number up (2.2 => 3). Search how to do this.   ans:Math.ceil(2.2)
+
+
+Challenge Exercises
+
+We'll use JavaScript to convert temperatures from Celsius (°C) to Fahrenheit (°F). The formula is:
+
+* Fahrenheit = (Celsius*9/5)+32
+
+* Celsius = (Fahrenheit-32)*5/9
+
+21. The temperature is 25°C. Calculate the temperature in Fahrenheit.  ans:(25 * 9 / 5) + 32
+
+2m. The temperature is 86°F. Calculate the temperature in Celsius.  ans:(86-32)*5/9
+ 
+2n. The temperature is -5°C. Calculate the temperature in Fahrenheit. ans:(-5 * 9 / 5) + 32
+ 
+
+
